@@ -1,4 +1,9 @@
-import logo from './logo.png';
+import logo from './Images/logo.png';
+import { Container, Row,Col } from 'reactstrap';
+import StrangerThings from './Images/StrangerThings.jpeg';
+import MoneyHeist from './Images/MoneyHeist.jpeg';
+import Bridgerton from './Images/Bridgerton.jpeg';
+import Avatar from './Images/Avatar.jpeg';
 import './App.css';
 
 function App() {
@@ -11,14 +16,20 @@ function App() {
         </p>
       </header>
 
-      <main className="App-main">
+      <Container fluid className="App-main">
         <p>1. Select Show</p>
+        <Row className="Selection-row">
+          <Col><input type="image" className="Selection-box" src={StrangerThings} alt="Stranger Things"/></Col>
+          <Col><input type="image" className="Selection-box" src={MoneyHeist} alt="Money Heist"/></Col>
+          <Col><input type="image" className="Selection-box" src={Bridgerton} alt="Bridgerton"/></Col>
+          <Col><input type="image" className="Selection-box" src={Avatar} alt="Avatar"/></Col>
+        </Row>
         <p>2. Select Small Merch</p>
         <p>3. Select Big Merch</p>
         <p>4. Select Snack Sweet</p>
         <p>5. Select Snack Salty</p>
         <button>pre-order May</button>
-      </main>
+      </Container>
     </div>
   );
 }

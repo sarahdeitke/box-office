@@ -25,4 +25,16 @@
   color: white;
   font-weight: bold;
   font-size: calc(10px + 4vmin);
+  min-width: 100vw;
+}
+
+.Selection-row {
+  display: flex;
+  flex-direction: row; 
+}
+
+.Selection-box {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
 }
