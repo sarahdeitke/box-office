@@ -17,6 +17,7 @@
   vertical-align: top;
   font-size: calc(10px + 1vmin);
   color: white;
+  text-align: center;
 }
 
 .App-main {
@@ -35,8 +36,9 @@
 }
 
 .Selection-box {
-  width: 15vw;
-  margin: 10px;
+  width: 18vw;
+  height: 18vw;
+  margin: 0.5vw;
 }
 
 /* HIDE RADIO */
@@ -54,7 +56,7 @@
 
 /* CHECKED STYLES */
 [type=radio]:checked + img {
-  outline: 10px solid gray;
+  outline: 0.5vw solid gray;
 }
 
 .Order-button {
