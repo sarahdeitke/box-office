@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/box-office/static/css/main.69b8ee12.chunk.css",
-    "main.js": "/box-office/static/js/main.d9efcb7c.chunk.js",
-    "main.js.map": "/box-office/static/js/main.d9efcb7c.chunk.js.map",
-    "runtime-main.js": "/box-office/static/js/runtime-main.84e71208.js",
-    "runtime-main.js.map": "/box-office/static/js/runtime-main.84e71208.js.map",
-    "static/js/2.2329fdb2.chunk.js": "/box-office/static/js/2.2329fdb2.chunk.js",
-    "static/js/2.2329fdb2.chunk.js.map": "/box-office/static/js/2.2329fdb2.chunk.js.map",
-    "static/js/3.ad22e0ab.chunk.js": "/box-office/static/js/3.ad22e0ab.chunk.js",
-    "static/js/3.ad22e0ab.chunk.js.map": "/box-office/static/js/3.ad22e0ab.chunk.js.map",
+    "main.js": "/box-office/static/js/main.8ab9ead6.chunk.js",
+    "main.js.map": "/box-office/static/js/main.8ab9ead6.chunk.js.map",
+    "runtime-main.js": "/box-office/static/js/runtime-main.08c4f876.js",
+    "runtime-main.js.map": "/box-office/static/js/runtime-main.08c4f876.js.map",
+    "static/js/2.9518ee7e.chunk.js": "/box-office/static/js/2.9518ee7e.chunk.js",
+    "static/js/2.9518ee7e.chunk.js.map": "/box-office/static/js/2.9518ee7e.chunk.js.map",
+    "static/js/3.9f599844.chunk.js": "/box-office/static/js/3.9f599844.chunk.js",
+    "static/js/3.9f599844.chunk.js.map": "/box-office/static/js/3.9f599844.chunk.js.map",
     "index.html": "/box-office/index.html",
     "static/css/main.69b8ee12.chunk.css.map": "/box-office/static/css/main.69b8ee12.chunk.css.map",
-    "static/js/2.2329fdb2.chunk.js.LICENSE.txt": "/box-office/static/js/2.2329fdb2.chunk.js.LICENSE.txt",
+    "static/js/2.9518ee7e.chunk.js.LICENSE.txt": "/box-office/static/js/2.9518ee7e.chunk.js.LICENSE.txt",
     "static/media/Avatar.061bac42.jpeg": "/box-office/static/media/Avatar.061bac42.jpeg",
     "static/media/Beanie.1cf9697d.jpeg": "/box-office/static/media/Beanie.1cf9697d.jpeg",
     "static/media/Bridgerton.80c76e46.jpeg": "/box-office/static/media/Bridgerton.80c76e46.jpeg",
@@ -34,9 +34,9 @@
     "static/media/logo.757add7c.png": "/box-office/static/media/logo.757add7c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.84e71208.js",
-    "static/js/2.2329fdb2.chunk.js",
+    "static/js/runtime-main.08c4f876.js",
+    "static/js/2.9518ee7e.chunk.js",
     "static/css/main.69b8ee12.chunk.css",
-    "static/js/main.d9efcb7c.chunk.js"
+    "static/js/main.8ab9ead6.chunk.js"
   ]
 }
