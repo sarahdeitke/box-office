@@ -35,40 +35,40 @@ function App() {
       <Container fluid className="App-main">
         <p>1. Select May Show</p>
         <Row className="Selection-row">
-          <Col><input type="image" className="Selection-box" src={StrangerThings} alt="Stranger Things"/></Col>
-          <Col><input type="image" className="Selection-box" src={MoneyHeist} alt="Money Heist"/></Col>
-          <Col><input type="image" className="Selection-box" src={Bridgerton} alt="Bridgerton"/></Col>
-          <Col><input type="image" className="Selection-box" src={Avatar} alt="Avatar"/></Col>
+          <Col><label><input type="radio" name="show" id="ST"/><img className="Selection-box" src={StrangerThings}/></label></Col>
+          <Col><label><input type="radio" name="show" id="MH"/><img className="Selection-box" src={MoneyHeist}/></label></Col>
+          <Col><label><input type="radio" name="show" id="Br"/><img className="Selection-box" src={Bridgerton}/></label></Col>
+          <Col><label><input type="radio" name="show" id="Av"/><img className="Selection-box" src={Avatar}/></label></Col>
         </Row>
         <p>2. Select Branded Small Merch</p>
         <Row className="Selection-row">
-          <Col><input type="image" className="Selection-box" src={CrewSocks} alt="Crew Socks"/></Col>
-          <Col><input type="image" className="Selection-box" src={Beanie} alt="Beanie"/></Col>
-          <Col><input type="image" className="Selection-box" src={Stickers} alt="Stickers"/></Col>
-          <Col><input type="image" className="Selection-box" src={Mug} alt="Mug"/></Col>
+          <Col><label><input type="radio" name="smallM" id="so"/><img className="Selection-box" src={CrewSocks}/></label></Col>
+          <Col><label><input type="radio" name="smallM" id="be"/><img className="Selection-box" src={Beanie}/></label></Col>
+          <Col><label><input type="radio" name="smallM" id="st"/><img className="Selection-box" src={Stickers}/></label></Col>
+          <Col><label><input type="radio" name="smallM" id="mu"/><img className="Selection-box" src={Mug}/></label></Col>
         </Row>
         <p>3. Select Branded Big Merch</p>
         <Row className="Selection-row">
-          <Col><input type="image" className="Selection-box" src={Shirt} alt="Shirt"/></Col>
-          <Col><input type="image" className="Selection-box" src={Hydroflask} alt="Hydroflask"/></Col>
-          <Col><input type="image" className="Selection-box" src={Pants} alt="Pants"/></Col>
-          <Col><input type="image" className="Selection-box" src={Surprise} alt="Surprise"/></Col>
+          <Col><label><input type="radio" name="bigM" id="sh"/><img className="Selection-box" src={Shirt}/></label></Col>
+          <Col><label><input type="radio" name="bigM" id="hy"/><img className="Selection-box" src={Hydroflask}/></label></Col>
+          <Col><label><input type="radio" name="bigM" id="pa"/><img className="Selection-box" src={Pants}/></label></Col>
+          <Col><label><input type="radio" name="bigM" id="su"/><img className="Selection-box" src={Surprise}/></label></Col>
         </Row>
         <p>4. Select Snack Sweet</p>
         <Row className="Selection-row">
-          <Col><input type="image" className="Selection-box" src={MMs} alt="M+Ms"/></Col>
-          <Col><input type="image" className="Selection-box" src={SourPatchKids} alt="Sour Patch Kids"/></Col>
-          <Col><input type="image" className="Selection-box" src={Reeses} alt="Reeses"/></Col>
-          <Col><input type="image" className="Selection-box" src={Twizzlers} alt="Twizzlers"/></Col>
+          <Col><label><input type="radio" name="sweetS" id="mm"/><img className="Selection-box" src={MMs}/></label></Col>
+          <Col><label><input type="radio" name="sweetS" id="spk"/><img className="Selection-box" src={SourPatchKids}/></label></Col>
+          <Col><label><input type="radio" name="sweetS" id="re"/><img className="Selection-box" src={Reeses}/></label></Col>
+          <Col><label><input type="radio" name="sweetS" id="tw"/><img className="Selection-box" src={Twizzlers}/></label></Col>
         </Row>
         <p>5. Select Snack Salty</p>
         <Row className="Selection-row">
-          <Col><input type="image" className="Selection-box" src={Popcorn} alt="Popcorn"/></Col>
-          <Col><input type="image" className="Selection-box" src={Pretzels} alt="Pretzels"/></Col>
-          <Col><input type="image" className="Selection-box" src={Chips} alt="Chips"/></Col>
-          <Col><input type="image" className="Selection-box" src={Peanuts} alt="Peanuts"/></Col>
+          <Col><label><input type="radio" name="saltyS" id="po"/><img className="Selection-box" src={Popcorn}/></label></Col>
+          <Col><label><input type="radio" name="saltyS" id="pr"/><img className="Selection-box" src={Pretzels}/></label></Col>
+          <Col><label><input type="radio" name="saltyS" id="ch"/><img className="Selection-box" src={Chips}/></label></Col>
+          <Col><label><input type="radio" name="saltyS" id="pe"/><img className="Selection-box" src={Peanuts}/></label></Col>
         </Row>
-        <button>Pre-Order May</button>
+        <p><button className="Order-button">Pre-Order May</button></p>
       </Container>
     </div>
   );
