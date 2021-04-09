@@ -8,6 +8,10 @@ import CrewSocks from './Images/CrewSocks.webp';
 import Beanie from './Images/Beanie.jpeg';
 import Stickers from './Images/Stickers.jpg';
 import Mug from './Images/Mug.jpeg';
+import Pants from './Images/Pants.jpg';
+import Shirt from './Images/Shirt.jpeg';
+import Hydroflask from './Images/Hydroflask.jpeg';
+import Surprise from './Images/Surprise.jpeg';
 import './App.css';
 
 function App() {
@@ -35,7 +39,13 @@ function App() {
           <Col><input type="image" className="Selection-box" src={Stickers} alt="Stickers"/></Col>
           <Col><input type="image" className="Selection-box" src={Mug} alt="Mug"/></Col>
         </Row>
-        <p>3. Select Big Merch</p>
+        <p>3. Select Branded Big Merch</p>
+        <Row className="Selection-row">
+          <Col><input type="image" className="Selection-box" src={Shirt} alt="Shirt"/></Col>
+          <Col><input type="image" className="Selection-box" src={Hydroflask} alt="Hydroflask"/></Col>
+          <Col><input type="image" className="Selection-box" src={Pants} alt="Pants"/></Col>
+          <Col><input type="image" className="Selection-box" src={Surprise} alt="Surprise"/></Col>
+        </Row>
         <p>4. Select Snack Sweet</p>
         <p>5. Select Snack Salty</p>
         <button>pre-order May</button>
