@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/box-office/static/css/main.40f5566e.chunk.css",
+    "main.js": "/box-office/static/js/main.d9efcb7c.chunk.js",
+    "main.js.map": "/box-office/static/js/main.d9efcb7c.chunk.js.map",
+    "runtime-main.js": "/box-office/static/js/runtime-main.84e71208.js",
+    "runtime-main.js.map": "/box-office/static/js/runtime-main.84e71208.js.map",
+    "static/js/2.2329fdb2.chunk.js": "/box-office/static/js/2.2329fdb2.chunk.js",
+    "static/js/2.2329fdb2.chunk.js.map": "/box-office/static/js/2.2329fdb2.chunk.js.map",
+    "static/js/3.ad22e0ab.chunk.js": "/box-office/static/js/3.ad22e0ab.chunk.js",
+    "static/js/3.ad22e0ab.chunk.js.map": "/box-office/static/js/3.ad22e0ab.chunk.js.map",
+    "index.html": "/box-office/index.html",
+    "static/css/main.40f5566e.chunk.css.map": "/box-office/static/css/main.40f5566e.chunk.css.map",
+    "static/js/2.2329fdb2.chunk.js.LICENSE.txt": "/box-office/static/js/2.2329fdb2.chunk.js.LICENSE.txt",
+    "static/media/Avatar.061bac42.jpeg": "/box-office/static/media/Avatar.061bac42.jpeg",
+    "static/media/Beanie.1cf9697d.jpeg": "/box-office/static/media/Beanie.1cf9697d.jpeg",
+    "static/media/Bridgerton.80c76e46.jpeg": "/box-office/static/media/Bridgerton.80c76e46.jpeg",
+    "static/media/Chips.856edfc8.jpg": "/box-office/static/media/Chips.856edfc8.jpg",
+    "static/media/CrewSocks.427b480e.webp": "/box-office/static/media/CrewSocks.427b480e.webp",
+    "static/media/Hydroflask.b24e3b81.jpeg": "/box-office/static/media/Hydroflask.b24e3b81.jpeg",
+    "static/media/M&Ms.ca9593df.jpg": "/box-office/static/media/M&Ms.ca9593df.jpg",
+    "static/media/MoneyHeist.7c05031f.jpeg": "/box-office/static/media/MoneyHeist.7c05031f.jpeg",
+    "static/media/Pants.97aff9ab.jpg": "/box-office/static/media/Pants.97aff9ab.jpg",
+    "static/media/Peanuts.15bf314b.jpg": "/box-office/static/media/Peanuts.15bf314b.jpg",
+    "static/media/Popcorn.f8005966.webp": "/box-office/static/media/Popcorn.f8005966.webp",
+    "static/media/Pretzels.870cee8f.jpeg": "/box-office/static/media/Pretzels.870cee8f.jpeg",
+    "static/media/Reeses.79747699.jpeg": "/box-office/static/media/Reeses.79747699.jpeg",
+    "static/media/Shirt.738dabcf.jpeg": "/box-office/static/media/Shirt.738dabcf.jpeg",
+    "static/media/SourPatchKids.e3c39d9a.jpg": "/box-office/static/media/SourPatchKids.e3c39d9a.jpg",
+    "static/media/Stickers.b5c4543f.jpg": "/box-office/static/media/Stickers.b5c4543f.jpg",
+    "static/media/StrangerThings.43e52544.jpeg": "/box-office/static/media/StrangerThings.43e52544.jpeg",
+    "static/media/Surprise.3df1ff21.jpeg": "/box-office/static/media/Surprise.3df1ff21.jpeg",
+    "static/media/Twizzlers.4e82dd27.png": "/box-office/static/media/Twizzlers.4e82dd27.png",
+    "static/media/logo.757add7c.png": "/box-office/static/media/logo.757add7c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84e71208.js",
+    "static/js/2.2329fdb2.chunk.js",
+    "static/css/main.40f5566e.chunk.css",
+    "static/js/main.d9efcb7c.chunk.js"
+  ]
+}
