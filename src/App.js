@@ -16,6 +16,10 @@ import MMs from './Images/M&Ms.jpg';
 import SourPatchKids from './Images/SourPatchKids.jpg';
 import Twizzlers from './Images/Twizzlers.png';
 import Reeses from './Images/Reeses.jpeg';
+import Popcorn from './Images/Popcorn.webp';
+import Peanuts from './Images/Peanuts.jpg';
+import Chips from './Images/Chips.jpg';
+import Pretzels from './Images/Pretzels.jpeg';
 import './App.css';
 
 function App() {
@@ -58,7 +62,13 @@ function App() {
           <Col><input type="image" className="Selection-box" src={Twizzlers} alt="Twizzlers"/></Col>
         </Row>
         <p>5. Select Snack Salty</p>
-        <button>pre-order May</button>
+        <Row className="Selection-row">
+          <Col><input type="image" className="Selection-box" src={Popcorn} alt="Popcorn"/></Col>
+          <Col><input type="image" className="Selection-box" src={Pretzels} alt="Pretzels"/></Col>
+          <Col><input type="image" className="Selection-box" src={Chips} alt="Chips"/></Col>
+          <Col><input type="image" className="Selection-box" src={Peanuts} alt="Peanuts"/></Col>
+        </Row>
+        <button>Pre-Order May</button>
       </Container>
     </div>
   );
