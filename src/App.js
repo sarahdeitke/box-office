@@ -1,5 +1,6 @@
 import logo from './Images/logo.png';
 import { Container, Row,Col } from 'reactstrap';
+import TagManager from 'react-gtm-module';
 import StrangerThings from './Images/StrangerThings.jpeg';
 import MoneyHeist from './Images/MoneyHeist.jpeg';
 import Bridgerton from './Images/Bridgerton.jpeg';
@@ -21,6 +22,12 @@ import Peanuts from './Images/Peanuts.jpg';
 import Chips from './Images/Chips.jpg';
 import Pretzels from './Images/Pretzels.jpeg';
 import './App.css';
+
+const tagManagerArgs = {
+  gtmId: 'GTM-K4P9DMN'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 function App() {
   return (
