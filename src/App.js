@@ -58,6 +58,8 @@ class App extends React.Component {
     .then(response => {
       console.log(response);
     })
+
+    alert("Thank your for your preorder!");
   }
 
   render() {
