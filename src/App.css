@@ -41,8 +41,8 @@
   margin: 1vw;
 }
 
-/* HIDE RADIO */
-[type=radio] { 
+/* HIDE CHECKBOX */
+[type=checkbox] { 
   position: absolute;
   opacity: 0;
   width: 0;
@@ -50,12 +50,12 @@
 }
 
 /* IMAGE STYLES */
-[type=radio] + img {
+[type=checkbox] + img {
   cursor: pointer;
 }
 
 /* CHECKED STYLES */
-[type=radio]:checked + img {
+[type=checkbox]:checked + img {
   outline: 1vw solid #10A5F5;
 }
 
