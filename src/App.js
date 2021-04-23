@@ -3,26 +3,6 @@ import axios from 'axios';
 import logo from './Images/logo.png';
 import { Container, Row,Col } from 'reactstrap';
 import TagManager from 'react-gtm-module';
-import StrangerThings from './Images/StrangerThings.jpeg';
-import MoneyHeist from './Images/MoneyHeist.jpeg';
-import Bridgerton from './Images/Bridgerton.jpeg';
-import Avatar from './Images/Avatar.jpeg';
-import CrewSocks from './Images/CrewSocks.webp';
-import Beanie from './Images/Beanie.jpeg';
-import Stickers from './Images/Stickers.jpg';
-import Mug from './Images/Mug.jpeg';
-import Pants from './Images/Pants.jpg';
-import Shirt from './Images/Shirt.jpeg';
-import Hydroflask from './Images/Hydroflask.jpeg';
-import Surprise from './Images/Surprise.jpeg';
-import MMs from './Images/M&Ms.jpg';
-import SourPatchKids from './Images/SourPatchKids.jpg';
-import Twizzlers from './Images/Twizzlers.png';
-import Reeses from './Images/Reeses.jpeg';
-import Popcorn from './Images/Popcorn.webp';
-import Peanuts from './Images/Peanuts.jpg';
-import Chips from './Images/Chips.jpg';
-import Pretzels from './Images/Pretzels.jpeg';
 import StTop1 from './Images/st_top_1.jpeg';
 import StTop2 from './Images/st_top_2.png';
 import StTop3 from './Images/st_top_3.png';
@@ -114,20 +94,6 @@ class App extends React.Component {
           <Col><label><input type="checkbox" name="stMisc3" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc3}/></label></Col>
           <Col><label><input type="checkbox" name="stMisc4" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc4}/></label></Col>
         </Row>
-        {/* <p>4. Select Snack Sweet</p>
-        <Row className="Selection-row">
-          <Col><label><input type="radio" name="sweetS" value="mm" onChange={this.handleOptionChange}/><img className="Selection-box" src={MMs}/></label></Col>
-          <Col><label><input type="radio" name="sweetS" value="spk" onChange={this.handleOptionChange}/><img className="Selection-box" src={SourPatchKids}/></label></Col>
-          <Col><label><input type="radio" name="sweetS" value="re" onChange={this.handleOptionChange}/><img className="Selection-box" src={Reeses}/></label></Col>
-          <Col><label><input type="radio" name="sweetS" value="tw" onChange={this.handleOptionChange}/><img className="Selection-box" src={Twizzlers}/></label></Col>
-        </Row>
-        <p>5. Select Snack Salty</p>
-        <Row className="Selection-row">
-          <Col><label><input type="radio" name="saltyS" value="po" onChange={this.handleOptionChange}/><img className="Selection-box" src={Popcorn}/></label></Col>
-          <Col><label><input type="radio" name="saltyS" value="pr" onChange={this.handleOptionChange}/><img className="Selection-box" src={Pretzels}/></label></Col>
-          <Col><label><input type="radio" name="saltyS" value="ch" onChange={this.handleOptionChange}/><img className="Selection-box" src={Chips}/></label></Col>
-          <Col><label><input type="radio" name="saltyS" value="pe" onChange={this.handleOptionChange}/><img className="Selection-box" src={Peanuts}/></label></Col>
-        </Row> */}
         <p>Name</p>
         <Row className="Selection-row">
           <input type="text" name="name" value={this.state.name} onChange={this.handleOptionChange}/>
