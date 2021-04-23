@@ -48,18 +48,25 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
+      stTop1: Boolean(false),
+      stTop2: Boolean(false),
+      stTop3: Boolean(false),
+      stTop4: Boolean(false),
+      stMug1: Boolean(false),
+      stMug2: Boolean(false),
+      stMug3: Boolean(false),
+      stMug4: Boolean(false),
+      stMisc1: Boolean(false),
+      stMisc2: Boolean(false),
+      stMisc3: Boolean(false),
+      stMisc4: Boolean(false),
       name: '',
-      show: '',
-      bigM: '',
-      smallM: '',
-      sweetS: '',
-      saltyS: ''
     };
   }
 
   handleOptionChange = e => {
     this.setState({
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.checked
     });
   }
 
@@ -88,24 +95,24 @@ class App extends React.Component {
       <Container fluid className="App-main">
         <p>Tops</p>
         <Row className="Selection-row">
-          <Col><label><input type="checkbox" name="show" value="ST" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop1}/></label></Col>
-          <Col><label><input type="checkbox" name="show" value="MH" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop2}/></label></Col>
-          <Col><label><input type="checkbox" name="show" value="Br" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop3}/></label></Col>
-          <Col><label><input type="checkbox" name="show" value="Av" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop4}/></label></Col>
+          <Col><label><input type="checkbox" name="stTop1" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop1}/></label></Col>
+          <Col><label><input type="checkbox" name="stTop2" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop2}/></label></Col>
+          <Col><label><input type="checkbox" name="stTop3" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop3}/></label></Col>
+          <Col><label><input type="checkbox" name="stTop4" onChange={this.handleOptionChange}/><img className="Selection-box" src={StTop4}/></label></Col>
         </Row>
         <p>Mugs</p>
         <Row className="Selection-row">
-          <Col><label><input type="checkbox" name="smallM" value="so" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug1}/></label></Col>
-          <Col><label><input type="checkbox" name="smallM" value="be" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug2}/></label></Col>
-          <Col><label><input type="checkbox" name="smallM" value="st" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug3}/></label></Col>
-          <Col><label><input type="checkbox" name="smallM" value="mu" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug4}/></label></Col>
+          <Col><label><input type="checkbox" name="stMug1" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug1}/></label></Col>
+          <Col><label><input type="checkbox" name="stMug2" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug2}/></label></Col>
+          <Col><label><input type="checkbox" name="stMug3" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug3}/></label></Col>
+          <Col><label><input type="checkbox" name="stMug4" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMug4}/></label></Col>
         </Row>
         <p>Misc.</p>
         <Row className="Selection-row">
-          <Col><label><input type="checkbox" name="bigM" value="sh" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc1}/></label></Col>
-          <Col><label><input type="checkbox" name="bigM" value="hy" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc2}/></label></Col>
-          <Col><label><input type="checkbox" name="bigM" value="pa" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc3}/></label></Col>
-          <Col><label><input type="checkbox" name="bigM" value="su" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc4}/></label></Col>
+          <Col><label><input type="checkbox" name="stMisc1" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc1}/></label></Col>
+          <Col><label><input type="checkbox" name="stMisc2" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc2}/></label></Col>
+          <Col><label><input type="checkbox" name="stMisc3" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc3}/></label></Col>
+          <Col><label><input type="checkbox" name="stMisc4" onChange={this.handleOptionChange}/><img className="Selection-box" src={StMisc4}/></label></Col>
         </Row>
         {/* <p>4. Select Snack Sweet</p>
         <Row className="Selection-row">
