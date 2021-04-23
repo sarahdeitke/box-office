@@ -50,6 +50,12 @@ class App extends React.Component {
     });
   }
 
+  handleNameChange = e => {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  }
+
   submitHandler = e => {
     e.preventDefault();
     console.log(this.state);
@@ -96,7 +102,7 @@ class App extends React.Component {
         </Row>
         <p>Name</p>
         <Row className="Selection-row">
-          <input type="text" name="name" value={this.state.name} onChange={this.handleOptionChange}/>
+          <input type="text" name="name" value={this.state.name} onChange={this.handleNameChange}/>
         </Row>
         <p><button className="Order-button" onClick={this.submitHandler}>Pre-Order May</button></p>
       </Container>
